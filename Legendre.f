@@ -1,4 +1,5 @@
       implicit double precision(a-h, o-z)
+c giving order of polynomial      
       parameter(m=4)
       open(2, file='Legendre')
 
