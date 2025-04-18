@@ -8,7 +8,7 @@ c giving order of polynomial
       do 1 j=1,200
 	      Po=1
 	      Pi=x
-	      do 39 n=1,m
+	      do 39 n=2,m
 		      Pii=((2*n-1)*x*Pi-(n-1)*Po)/(n)
 		      Po=Pi
 		      Pi=Pii
