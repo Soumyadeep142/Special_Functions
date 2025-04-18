@@ -13,7 +13,7 @@ c giving order of polynomial
 		      Po=Pi
 		      Pi=Pii
  39   continue
-	      write(2,*)x, Pi
+	      write(2,*)x, Pii
 	      x=x+dx
  1    continue
       stop
