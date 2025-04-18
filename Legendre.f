@@ -9,7 +9,7 @@ c giving order of polynomial
 	      Po=1
 	      Pi=x
 	      do 39 n=1,m
-		      Pii=((2*n+1)*x*Pi-n*Po)/(n+1)
+		      Pii=((2*n-1)*x*Pi-(n-1)*Po)/(n)
 		      Po=Pi
 		      Pi=Pii
  39   continue
